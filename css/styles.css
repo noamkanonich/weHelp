@@ -93,8 +93,6 @@ p {
     margin-left: 55%;
 }
 
-
-
 .title {
     color: #2a435c;
     font-weight: bold;
@@ -107,6 +105,15 @@ p {
     height: 350px;
     border-radius: 50px;
     margin-bottom: 10%;
+    margin-right: 30%;
+}
+
+.img-title {
+    max-width: 100%;
+    max-height: 100%;
+    /* height: auto; */
+    display: table;
+    margin: 0 auto;
 }
 
 
@@ -118,22 +125,22 @@ p {
         line-height: 1;
         color: #dd9d71 !important;
         text-align: right;
+        margin-left: 0%;
+
 
     }
-
 
     h2 {
         margin-top: 20px;
     }
 
-
     p {
-        text-align: right;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         text-align: center;
+        margin: auto;   
+        margin-bottom: 5%;
     }
     
-
     .navbar {
         padding: 0 0 2.5rem;
 
@@ -147,11 +154,9 @@ p {
 
     .title-image {
         width: 300px;
-        height: 200px;
+        height: 220px;
         border-radius: 50px;
         margin-bottom: 10%;
-        margin-top: 5%;
-        padding-right: 8%;
     }
 
     .title {
@@ -162,10 +167,12 @@ p {
     }
 
     .donate-button {
-        margin-top: 10px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        width:270px;
+        /* margin-top: 10px;
+        margin-left: 5%;
+        margin-bottom: 20px; */
+        margin: auto;
+        margin-bottom: 8%;
+        width: 100%;
     }
 }
 
@@ -254,7 +261,7 @@ p {
     .testimonial-image {
         width: 70%;
         height: 70%;
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .title-testimonial {
@@ -268,8 +275,8 @@ p {
         -moz-border-radius: 70px; 
         -webkit-border-radius: 70px; 
         border-radius: 90px;
-        margin-left: 28%;
-        margin-bottom: 8%;
+        margin: auto;
+        margin-bottom: 6%;
     }
 }
 
@@ -302,12 +309,11 @@ p {
 }
 
 .input-group{
-    padding-top: -10%;
-    padding-left: -10%;
+    margin-left: 20%;
 }
 
 .form-control {
-    margin-left: 57%;
+    /* margin-left: 57%; */
     height: 40px;
 }
 
@@ -322,7 +328,7 @@ p {
     border: 0;
     box-shadow: none;
     border-radius: 0px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
 
 
 }
@@ -368,19 +374,25 @@ p {
         margin-left: 100px;
         
       }
+
+      .input-group{
+        width:90%;
+        margin: auto;
+    }
+
       .joinus-button {
         margin: 0;
       }
       
       .form-control {
-          margin-left: 20%;
-          width:250px;
-          height: 40px;
+        /* margin: auto; */
+        /* margin-left: 15%; */
+        width: 100%;
       }
 
       .form-button {
-          margin-top: 5%;
-        margin-left: 35%;
+        margin: auto;
+        width: 100%;
       }
 
       .p {
@@ -393,7 +405,7 @@ p {
 /* Donation Section */
 
 #donation {
-    padding: 4% 15%;
+    padding: 4% 18%;
     text-align: center;
     background-color: #6690b9;
     color: white;
@@ -434,7 +446,10 @@ p {
 @media (max-width: 1028px) {
   
     .donate {
-        margin-left: -45px; 
+        /* margin-left: -45px;  */
+        margin-left: -40px;
+        /* margin-right: 50%; */
+        /* width: 100%; */
         max-width: 500px; 
         min-width: 310px; 
         max-height:none!important
