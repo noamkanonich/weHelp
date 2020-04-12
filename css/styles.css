@@ -281,7 +281,7 @@ p {
     margin-left: 35%;
  }
 
- .circle1 { 
+ /* .circle1 { 
     width: 150px;
     height: 150px;
     background: #354e63; 
@@ -289,23 +289,18 @@ p {
     -webkit-border-radius: 70px; 
     border-radius: 90px;
     margin-left: 35%;
- }
+ } */
 
- @media screen and (min-width: 0px) and (max-width: 720px) {
+ @media screen and (min-width: 0px) and (max-width: 420px) {
     #process { display: none; }
     .nav-item { display: none; }
 
-    .mobile-hide{ display: none; }
-    
-  }
-
-  @media screen and (min-width: 0px) and (max-width: 720px) {
     #process2 { display: contents; }
     .nav-item2 { display: contents; }
-
-
+    
   }
-  @media screen and (min-width: 720px) and (max-width: 1720px) {
+   
+  @media screen and (min-width: 420px) and (max-width: 1720px) {
     #process2 { display: none; }
     .nav-item2 { display: none; }
 
@@ -333,9 +328,10 @@ p {
         margin-top: 6%;
         margin-bottom: 3%;
     }
-
     
 }
+
+
 
 /* Press Section */
 
