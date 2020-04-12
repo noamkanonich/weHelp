@@ -291,7 +291,7 @@ p {
     margin-left: 35%;
  } */
 
- @media screen and (min-width: 0px) and (max-width: 420px) {
+ @media screen and (min-width: 0px) and (max-width: 400px) {
     #process { display: none; }
     .nav-item { display: none; }
 
@@ -300,7 +300,7 @@ p {
     
   }
    
-  @media screen and (min-width: 420px) and (max-width: 1720px) {
+  @media screen and (min-width: 401px) and (max-width: 1728px) {
     #process2 { display: none; }
     .nav-item2 { display: none; }
 
