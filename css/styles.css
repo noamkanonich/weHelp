@@ -292,17 +292,22 @@ p {
  } */
 
  @media screen and (min-width: 0px) and (max-width: 400px) {
-    #process { display: none; }
+       
     .nav-item { display: none; }
 
-    #process2 { display: contents; }
+    #process2 { display: none; }
     .nav-item2 { display: contents; }
     
+    #row1 { display: none; }
+    #row2 { display: contents; }
   }
    
   @media screen and (min-width: 401px) and (max-width: 1728px) {
     #process2 { display: none; }
     .nav-item2 { display: none; }
+   
+    #row1 { display: contents; }
+    #row2 { display: none; }
 
   }
 
