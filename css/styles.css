@@ -292,12 +292,10 @@ p {
  } */
 
  @media screen and (min-width: 0px) and (max-width: 400px) {
-    #process2 { display: none; }
     #row1 { display: none; }
   }
    
   @media screen and (min-width: 401px) and (max-width: 1728px) {
-    #process2 { display: none; }
     #row2 { display: none; }
   }
 
@@ -389,7 +387,7 @@ p {
 .form-button:focus {
     color: white;
     background-color: rgb(155, 100, 48);
-    width: 101px;
+    width: 450px;
     height: 41px;
     border: solid 3px lightblue;
     outline: none;
