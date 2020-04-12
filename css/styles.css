@@ -292,20 +292,13 @@ p {
  } */
 
  @media screen and (min-width: 0px) and (max-width: 400px) {
-       
-    .nav-item { display: none; }
-
     #process2 { display: none; }
-    .nav-item2 { display: contents; }
-    
     #row1 { display: none; }
   }
    
   @media screen and (min-width: 401px) and (max-width: 1728px) {
     #process2 { display: none; }
-    .nav-item2 { display: none; }
     #row2 { display: none; }
-
   }
 
 @media (max-width: 1028px) {
@@ -332,7 +325,6 @@ p {
     }
     
 }
-
 
 
 /* Press Section */
@@ -437,7 +429,6 @@ p {
   }
 
 
-
 @media (max-width: 1028px) {
     #businesses {
         /* background-color: #426a90; */
@@ -490,12 +481,10 @@ p {
         padding: 5% 13%;
     }
 
-
       .p {
           text-align: left;
       }
 }
-
 
 
 /* Donation Section */
@@ -515,8 +504,6 @@ p {
     
 }
 
-
-
 @media (max-width: 1028px) {
   
     .donate {
@@ -524,12 +511,8 @@ p {
         max-width: 400px; 
         min-width: 50%; 
         max-height:none!important
-    }
-
-  
-
+    } 
 }
-
 
         
 /* Footer Section */
