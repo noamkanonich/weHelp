@@ -299,14 +299,11 @@ p {
     .nav-item2 { display: contents; }
     
     #row1 { display: none; }
-    #row2 { display: block; }
   }
    
   @media screen and (min-width: 401px) and (max-width: 1728px) {
     #process2 { display: none; }
     .nav-item2 { display: none; }
-   
-    #row1 { display: block; }
     #row2 { display: none; }
 
   }
