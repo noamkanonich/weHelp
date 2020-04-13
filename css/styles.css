@@ -291,11 +291,14 @@ p {
     margin-left: 35%;
  } */
 
- @media screen and (min-width: 0px) and (max-width: 400px) {
+ @media screen and (min-width: 0px) and (max-width: 768px) {
     #row1 { display: none; }
+    #row2 { display: block; }
+
   }
    
-  @media screen and (min-width: 401px) and (max-width: 1728px) {
+  @media screen and (min-width: 769px) and (max-width: 1728px) {
+    #row1 { display: block; }
     #row2 { display: none; }
   }
 
