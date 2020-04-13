@@ -175,6 +175,7 @@ body {
     .title-logo {
         width: 50px;
         height: 46px;
+        margin-left: -15px
     }
    
     .donate-button {
