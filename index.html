@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -70,27 +72,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-      // Add smooth scrolling to all links
+    // Add smooth scrolling to all links
         $(".nav-link").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
-              // Prevent default anchor click behavior
+            // Prevent default anchor click behavior
               event.preventDefault();
         
               // Store hash
               var hash = this.hash;
         
               // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
               $('html, body').animate({
                 scrollTop: $(hash).offset().top
-              }, 800, function(){
-          
+            },
+            800, function(){
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
-              });
-          } // End if
-      });
+            });
+        } // End if
+    });
 
       $(".btn").on('click', function(event) {
         if (this.hash !== "") {
@@ -98,12 +100,13 @@
           var hash = this.hash;
           $('html, body').animate({
                 scrollTop: $(hash).offset().top
-          }, 800, function(){
+            },
+            800, function(){
             window.location.hash = hash;
-          });
+            });
         }
-      })
-    });
+    })
+});
     </script>
 
     <link rel="icon" type="image/gif/png" href="heart.ico">
@@ -116,7 +119,6 @@
         <!-- fixed-top -->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand mb-0 h1-lg" href="">
-            <!-- <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
               weHelp</a
             >
       
@@ -147,74 +149,51 @@
           </div>
         </nav>
 
-        <!-- <section id="section1"> -->
         <div class="row">
           <div class="col-lg-6">
             <img class="img-title title-image" src="images/charity.jpg" />
           </div>
           <div class="col-lg-6">
             <h1>תרומה מכל הלב</h1>
-            <!-- <p dir="rtl" style="color:white; text-align: right;"> כיוזמה חדשה למען בתי העסק בתחום המסעדנות שנפגעו כתוצאה מהשלכות נגיף הקורונה, יצרנו את FundUs.  -->
               <p dir="rtl" style="color:white; text-align: right;">במטרה לעזור ולתרום לבתי עסק ולצוותים הרפואיים בתוקפת נגיף הקורונה, הקמנו את המיזם weHelp.
             </br>
-              <!-- <strong>מטרת המיזם</strong> היא לבצע הזמנה של ארוחות חמות מבתי העסק אשר נפגעו מהשלכות נגיף הקורונה, ולשלוח את ארוחות אלה לצוותים הרפואיים שבבתי החולים.</p> -->
               <strong>מטרת המיזם</strong> - ביצוע הזמנת ארוחות חמות מבתי עסק בתחום המזון והמסעדנות שנפגעו מהשלכות נגיף הקורונה ולשלוח אותן לצוותים הרפואיים בבתי החולים.</p>
               <p dir="rtl" style="color:white; text-align: right;"> מכירים בתי עסק שרוצים לקחת חלק ביוזמה? <a href="mailto:israelwehelp@gmail.com" style="color: #dd9d71;"><strong>לחצו כאן</strong></a></p>
-            <!-- <button class="btn btn-outline-light btn-lg donate-button" href="#donation" target="_blank" type="button" style="font-family: 'Rubik'; font-weight: bold;"><img src="images/heart.png" width="30" height="25" style="padding-right: 10px;">תרומה</button> -->
             <a href="#donation" class="btn btn-outline-light btn-lg donate-button" role="button" style="font-family: 'Rubik'; font-weight: bold;">תרומה</a>
-            <!-- <img src="images/heart.png" width="35" height="25" style="padding-right: 10px;"> -->
           </div>
-          
         </div>
       </div>
     </section>
 
+
     <section id="ghost-section">
         <div class="row"  style="padding: 0% 40%;">
-            <!-- <div class="col-lg-4">
-                <i class="social-icon fab fa-facebook-f"></i></a></li>
-            </div>
-            <div class="col-lg-4">
-                <i class="social-icon fas fa-envelope"></i></a></li>
-            </div>
-            <div class="col-lg-4">
-                <i class="fa fa-envelope fa-3x" style="border: solid 2px; border-radius: 20px; padding: 10px"></i></a></li>
-            </div>
-             -->
-        </div>
     </section>
 
 
     <section id="features">
-
     <div class="row">
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-utensils fa-4x"></i>
-            <!-- <img class="icon" src="images/take-out.png" width="70" height="80"> -->
             <h3 dir="rtl">172 מנות</h3>
             <p>חולקו לצוותים הרפואיים בבתי החולים</p>
         </div>
 
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-heart fa-4x"></i>
-            <!-- <img class="icon" src="images/donate-solid.svg" width="80" height="80"> -->
             <h3 dir="rtl">7,400 ₪</h3>
             <p>נתרמו למען בתי העסק ובתי החולים</p>
         </div>
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-users fa-4x"></i>
-            <!-- <img class="icon" src="images/human.png" width="80" height="80"> -->
             <h3 dir="rtl">481 תורמים</h3>
             <p>תרמו מכספם למען בתי העסק ובתי החולים</p>
         </div>
     </div> 
-
     </section>
 
 
-
-
-  <!-- The Processsssssssssssssssssssssssssssssssssssssssss -->
+  <!-- The Process -->
 
   <section id="process">
     <section id="row1">
@@ -231,7 +210,6 @@
     </div>
   </section>
 
-
     <section id="row2">
        <div class="row">
           <div class="col-lg-6 mt-auto mb-auto">
@@ -241,7 +219,7 @@
             </div>
          </div>
          <div class="col-lg-6 mt-auto mb-auto">
-             <h2 class="title-process">אתם, אנשים יקרים, תורמים למיזם שלנו כל סכום שעולה על דעתכם (כי הרי זה מבורך) </h2>
+             <h2 dir="rtl" class="title-process">אתם, אנשים יקרים, תורמים למיזם שלנו כל סכום שעולה על דעתכם (כי הרי זה מבורך) </h2>
           </div>
       </div>
     </section>
@@ -274,7 +252,6 @@
     </div>
   </section>
 
-
     <section id="row2">
        <div class="row">
           <div class="col-lg-6 mt-auto mb-auto">
@@ -287,226 +264,29 @@
           </div>
       </div>
     </section>
-
   </section>
-
-
-
-
-
-  <!-- The Process -->
-<!-- 
-  <section id="process">
-    <section id="row1">
-    <h2 class="title mb-4 mt-auto">מידע על התהליך</h2>
-    <div class="row">
-        <div class="col-lg-6 mt-auto mb-auto">
-            <h2 class="title-process">אתם, אנשים יקרים, תורמים למיזם שלנו כל סכום שעולה על דעתכם (כי הרי זה מבורך) </h2>
-        </div>
-        <div class="col-lg-6 mt-auto mb-auto">
-          <div class="circle">
-          <img class="process-image" src="images/money.png" alt="donation" height="100px">
-          </div>
-        </div>
-    </div>
-  </section>
-
-
-    <section id="row2">
-       <div class="row">
-          <div class="col-lg-6 mt-auto mb-auto">
-            <div class="circle">
-           <img class="process-image" src="images/money.png" alt="donation" height="100px">
-            </div>
-         </div>
-         <div class="col-lg-6 mt-auto mb-auto">
-             <h2 class="title-process">אתם, אנשים יקרים, תורמים למיזם שלנו כל סכום שעולה על דעתכם (כי הרי זה מבורך) </h2>
-          </div>
-      </div>
-    </section>
-
-    <hr style="height:2px; border:none; color:#426a90; background-color:#426a90;">
-
-    <div class="row">
-        <div class="col-lg-6 mt-auto mb-auto">
-          <div class="circle">
-            <img class="process-image" src="images/serve.png" alt="takeaway"  height="100">
-            </div>
-        </div>
-        <div class="col-lg-6 mt-auto mb-auto">
-            <h2 class="title-process"> אנחנו מבצעים הזמנת ארוחות חמות מבתי העסק אשר לוקחים חלק במיזם שלנו </h2>
-        </div>
-    </div>
-
-    <hr style="height:2px; border:none; color:#426a90; background-color:#426a90;">
-
-    <div class="row">
-        <div class="col-lg-6 mt-auto mb-auto">
-            <h2 class="title-process">הארוחות החמות שהוזמנו מבתי העסק יועברו לצוותים הרפואיים בבתי החולים</h2>
-        </div>
-        <div class="col-lg-6 mt-auto mb-auto">
-          <div class="circle">
-            <img class="process-image" src="images/food-delivery.png" alt="delivery"  height="110px">
-        </div>
-      </div>
-    </div>
-
-  </section> -->
-
-
-  <!-- The Process 2 -->
-  <!-- <section id="process2">
-    <h2 class="title mb-4 mt-auto">מידע על התהליך</h2>
-    <div class="row">
-      <div class="col-lg-6 mt-auto mb-auto">
-        <div class="circle">
-        <img class="process-image" src="images/money.png" alt="donation" height="100px">
-        </div>
-      </div>
-        <div class="col-lg-6 mt-auto mb-auto">
-            <h2 class="title-process">אתם, אנשים יקרים, תורמים למיזם שלנו כל סכום שעולה על דעתכם (כי הרי זה מבורך) </h2>
-        </div>
-        
-    </div>
-
-    <hr style="height:2px; border:none; color:#426a90; background-color:#426a90;">
-
-    <div class="row">
-      <div class="col-lg-6 mt-auto mb-auto">
-        <div class="circle">
-          <img class="process-image" src="images/serve.png" alt="takeaway"  height="100">
-        </div>
-      </div>
-      <div class="col-lg-6 mt-aufto mb-auto">
-          <h2 class="title-process"> אנחנו מבצעים הזמנת ארוחות חמות מבתי העסק אשר לוקחים חלק במיזם שלנו </h2>
-      </div>  
-      
-    </div>
-
-    <hr style="height:2px; border:none; color:#426a90; background-color:#426a90;">
-
-    <div class="row">
-      <div class="col-lg-6 mt-auto mb-auto">
-        <div class="circle">
-          <img class="process-image" src="images/food-delivery.png" alt="delivery"  height="110px">
-        </div>
-      </div>
-        <div class="col-lg-6 mt-auto mb-auto">
-            <h2 class="title-process">הארוחות החמות שהוזמנו מבתי העסק יועברו לצוותים הרפואיים בבתי החולים</h2>
-        </div>
-        
-    </div>
-
-  </section> -->
 
 
   <!-- Businesses Section -->
 
   <section class="colored-section" id="businesses">
     <h2 class="title mb-auto mt-auto">הצטרפו אלינו</h2>
-    
       <div class="row">
         <div class="col-lg-6 mt-auto mb-auto">
            <h3 class="joinus-title" dir="rtl">כל עזרה תתקבל בברכה,<br/> אל תהססו להצטרף!</h3>
         </div>
-
-        <!-- <div class="col-lg-4 mt-auto mb-auto">
-        <div class="vl"></div>
-
-        </div> -->
-
         <div class="col-lg-6 mt-auto mb-auto">
           <p class="joinus-par" dir="rtl"><strong>מכירים</strong> בתי עסק או מסעדות שמעוניינים לקחת חלק במיזם שלנו?  <br/> <strong>מעוניינים</strong> לעזור לנו במשלוחים או להתנדב יחד איתנו?</p>
-          <!-- <input dir="rtl" type="emal" name="_replyto" class="form-control" placeholder="כתובת אימייל" style="width:250px; height: 40px; margin-left: 24%"/>
-          <button class="joinus-button btn" type="submit" name="submit"><strong>הצטרפו</strong></button> -->
-          
           <form action="http://formspree.io/israelwehelp@gmail.com" method="POST">
             <div class="input-group">
-
-              <!-- <div class="form-group row"> -->
-                <!-- <div class="col-xs-2"> -->
                   <input dir="rtl" class="form-control" type="email" name="_replyto" placeholder="כתובת אימייל" style="margin-right: 10px; ">
                   <input dir="rtl" class="form-control" type="text" name="name" placeholder="שם מלא">
-
-                <!-- </div> -->
-                
-              <!-- </div> -->
-              <!-- <div class="col-xs-2"> -->
-            <!-- </div> -->
-            <!-- <button class="form-button" type="submit" name="submit"><strong>הצטsרפו</strong></button> -->
             </div>
             <input class="form-button" type="submit" value="הצטרפו">
-
           </form>
-          <!-- <input type="text" name="name"> -->
-          <!-- <input type="email" name="_replyto"> -->
-          <!-- <input type="submit" value="Send"> -->
         </div>
-      </div>
-      
+      </div>  
     </section>
-
-      <!-- <div class="row">
-        <div class="col-lg-6">
-          <h3 dir="rtl" >כל עזרה תתקבל בברכה,<br/> אל תהססו להצטרף!</h3>
-           <h2>מכירים בתי עסק שרוצים לקחת חלק במיזם ?<br\>מעוניינים להתנדב יחד איתנו ?</h2>
-        </div>
-  
-        <div class="vl"></div>
-  
-        <div class="col-lg-6">
-          <p dir="rtl" >מכירים בתי עסק או מסעדות שמעוניינים לקחת חלק במיזם שלנו?  <br/> רוצים לעזור לנו במשלוחים או להתנדב יחד איתנו?</p>
-          <input dir="rtl" type="text" name="email" class="form-control" placeholder="כתובת אימייל"/>
-          <button type="submit" name="submit"><strong>הצטרפו</strong></button>
-        </div>
-   -->
-  
-  <!-- Businesses -->
-<!-- 
-  <section class="colored-section" id="businesses">
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-    <h2 class="title mb-auto mt-auto">בתי עסק שותפים</h2>
-    
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          
-          <img class="businesses-logo" src="images/pizza.png" alt="tc-logo">
-          <img class="businesses-logo" src="images/mc.svg.png" alt="tnw-logo">
-          <img class="businesses-logo" src="images/mc.svg.png" alt="tnw-logo">
-
-        </div>
-        <div class="carousel-item container-fluid">
-        
-          <img class="businesses-logo" src="images/mc.svg.png" alt="tnw-logo">
-          <img class="businesses-logo" src="images/pizza.png" alt="tc-logo">
-          <img class="businesses-logo" src="images/pizza.png" alt="tc-logo">
-
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-
-  </section> -->
-
-
-
-   <!-- Businesses -->
-
-   <!-- <section id="businesses">
-        <h2 class="title mb-auto">בתי עסק שותפים</h2>
-
-        <img class="businesses-logo" src="images/pizza.png" alt="tc-logo">
-        <img class="businesses-logo" src="images/mc.svg.png" alt="tnw-logo">
-        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-        <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
-  </section>
- -->
 
 
     <!-- Donation -->
@@ -519,35 +299,7 @@
            <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="donate" allowpaymentrequest="" frameborder="" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all"  width="100%" height="100%" ></iframe>
      </div>
     </div>
-
     </section>
-
-          <!-- <hr style="width: 80%;">
-
-          <div class="row"> -->
-          
-          <!-- <div class="col-lg-3">
-           <h2 class="ml-auto mr-auto">
-              <form id="join-us-form" action="joinus.php" method="post">
-                <input type="text" name="name" class="form-control ml-auto mr-auto" style="width:250px; height: 50px;"/>
-                <input type="text" name="email" class="form-control ml-auto mr-auto" placeholder="email address" style="width:250px; height: 50px;"/>
-                <button type="submit" name="submit">Join Us</button>
-              </form> 
-
-              <form action="mailto:kanonichnoam.com" enctype="text/plain">
-                <input type="text" name="email" class="form-control ml-auto mr-auto" placeholder="email address" style="width:250px; height: 50px;"/>
-                <button type="submit" name="submit">Join Us</button>
-
-              </form>
-          </div> -->
-
-            <!-- <div class="col-lg-12">
-              <h2 class="ml-auto mr-auto" style="color: white;">הצטרפו אלינו</h2>
-            <input type="email" class="form-control ml-auto mr-auto" name="email" id="tlemail" placeholder="email address" style="width:300px"/>
-            <p style="color: white; margin:10px 0px 30px;"> במידה ותרצו לסייע במשלוחים של ארוחות או לקשר בין בתי עסק אלינו, אנא שלחו לנו מייל</p>
-
-          </div> -->
-
        
           
   <!-- Footer -->
