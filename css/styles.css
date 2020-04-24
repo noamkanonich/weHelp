@@ -494,19 +494,23 @@ body {
 }
   
 
-.meter {
- color: red;
-}
+
 
   @media (max-width: 1028px) {
-    .donate {
+    .donate  {
       margin: 0 0 0 auto;
       max-width: 400px;
       min-width: 50%;
       max-height: none !important;
     }
-}
 
+}
+@media (min-width: 281px) and (max-width: 768px) { 
+  .meter {
+    min-width: 450px;
+    max-height: none !important;
+  }
+}
 
 /* Footer Section */
   
