@@ -503,9 +503,15 @@ body {
       min-width: 50%;
       max-height: none !important;
     }
-
+    .meter {
+      /* padding-left: 10%; */
+      margin-left:-70px;
+      min-width: 400px;
+      max-height: none !important;
+    }
 }
-@media (min-width: 281px) and (max-width: 768px) { 
+
+@media (max-width: 768px) { 
   .meter {
     min-width: 450px;
     max-height: none !important;
