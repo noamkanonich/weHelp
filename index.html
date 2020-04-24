@@ -64,33 +64,21 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-
-
-    <!-- Scroll Down Animation  -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-    // Add smooth scrolling to all links
         $(".nav-link").on('click', function(event) {
-        // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
-            // Prevent default anchor click behavior
               event.preventDefault();
-        
-              // Store hash
+                     
               var hash = this.hash;
-        
-              // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
               $('html, body').animate({
                 scrollTop: $(hash).offset().top
             },
             800, function(){
-                // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
             });
-        } // End if
+        } 
     });
 
       $(".btn").on('click', function(event) {
@@ -174,18 +162,18 @@
     <div class="row">
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-utensils fa-4x"></i>
-            <h3 dir="rtl">20+ מנות</h3>
+            <h3 dir="rtl"><a style="font-family: Arial, Helvetica, sans-serif;">20</a>+ מנות</h3>
             <p>חולקו לצוותים הרפואיים בבתי החולים</p>
         </div>
 
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-heart fa-4x"></i>
-            <h3 dir="rtl"> 900 ₪ </h3>
+            <h3 dir="rtl"><script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="meter" frameborder="0" height="93px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?donation_meter_color=%2341a2d8&amp;only_donation_meter=true" style="margin-right: -200px;max-width:700px; min-width:510px; max-height:none!important; font-size: 100px;" width="100%"></iframe></h3>
             <p>נתרמו למען בתי העסק ובתי החולים</p>
         </div>
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-users fa-4x"></i>
-            <h3 dir="rtl">15+ תורמים</h3>
+            <h3 dir="rtl"><a style="font-family: Arial, Helvetica, sans-serif;">15</a>+ תורמים</h3>
             <p>תרמו מכספם למען בתי העסק ובתי החולים</p>
         </div>
     </div> 
@@ -293,9 +281,9 @@
         <h2 class="title mb-auto">תרומה</h2>
         <div class="row">
         <div class="col-lg-12">
-            <h3 style="margin-top: 30px;">תרומה אחת שווה מעל ומעבר</h3>
+            <h3 style="margin-top: 30px; font-size: 2rem;">תרומה אחת שווה מעל ומעבר</h3>
             <p style="color: white;"> הפוך היום לתורם נוסף אשר תומך בבתי העסק שנפגעו כתוצאה מנגיף הקורונה<br/> ותורם רבות לצוותים הרפואיים בבתי החולים</p>
-           <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="donate" allowpaymentrequest="" frameborder="" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all"  width="100%" height="100%" ></iframe>
+           <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="donate" allowpaymentrequest="" frameborder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?default_interval=o&hide_donation_meter=true" style="max-width: 500px; min-width: 310px; max-height:none!important" width="100%"></iframe>
      </div>
     </div>
     </section>
