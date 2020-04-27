@@ -1,5 +1,5 @@
 # weHelp
-weHelp is a website that I built from scratch for my non-profit organization.
+weHelp is a website that I built from scratch for my non-profit organization. <br />
 The purpse of weHelp is to help medical teams and businesses that have been hurt financially by COVID-19 virus.
 
 # Website
