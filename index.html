@@ -96,10 +96,16 @@
         }
     })
 });
+
+function redirect() {
+    var url = "index.html";
+    window.location(url);
+}
+
     </script>
 
     <link rel="icon" type="image/gif/png" href="wehelp-icon.ico">
-    <title>weHelp</title>
+    <title>weHelp | Fighting the COVID-19</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127394520-3"></script>
@@ -118,7 +124,7 @@
       <div class="container-fluid">
         <!-- fixed-top -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand mb-0 h1-lg" href="">
+            <a class="navbar-brand mb-0 h1-lg" href="">
             <img class="title-logo" src="images/wehelp-icon.jpg">  
             weHelp</a>
       
@@ -136,6 +142,9 @@
 
           <div class="collapse navbar-collapse" id="navbarToggler1">
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">English</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#footer">יצירת קשר</a>
               </li>
@@ -181,12 +190,12 @@
 
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-heart fa-4x"></i>
-            <h3 dir="rtl"><script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="meter" frameborder="0" height="93px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?donation_meter_color=%2341a2d8&amp;only_donation_meter=true" style="margin-right: -200px;max-width:700px; min-width:505px; max-height:none!important; font-size: 100px;" width="100%"></iframe></h3>
+            <h3 dir="rtl"><script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="meter" frameborder="0" height="93px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?donation_meter_color=%2341a2d8&amp;only_donation_meter=true"  width="100%"></iframe></h3>
             <p>נתרמו למען בתי העסק ובתי החולים</p>
         </div>
         <div class="feature-box col-lg-4">
             <i class="icon fas fa-users fa-4x"></i>
-            <h3 dir="rtl"><a style="font-family: Arial, Helvetica, sans-serif;">15</a>+ תורמים</h3>
+            <h3 dir="rtl"><a style="font-family: Arial, Helvetica, sans-serif;">20</a>+ תורמים</h3>
             <p>תרמו מכספם למען בתי העסק ובתי החולים</p>
         </div>
     </div> 
@@ -233,7 +242,7 @@
             </div>
         </div>
         <div class="col-lg-6 mt-auto mb-auto">
-            <h2 class="title-process"> אנחנו מבצעים הזמנת ארוחות חמות מבתי העסק אשר לוקחים חלק במיזם שלנו </h2>
+            <h2 class="title-process"> בהתאם לתרומות, אנחנו מבצעים הזמנת ארוחות חמות מבתי העסק אשר לוקחים חלק במיזם שלנו  </h2>
         </div>
     </div>
 
@@ -302,6 +311,26 @@
     </div>
     </section>
        
+
+    <!-- About Us -->
+
+    <section id="about"> 
+        <h2 class="title mb-auto" style="color:#2a435c">קצת עלינו</h2>
+        <div class="row">
+        <div class="col-lg-6">
+            <h3>מאי דר<a style="color:#2a435c"> | מייסדת המיזם</a> </h3>
+            <img src="images/MD.jpg" width="120" height="120">
+            <p style="color: white;">תל אביב | 26</p>
+            <p style="color: white;"> בוגרת אוניברסיטת מרילנד וסטודנטית למשפטים באוניברסיטת תל אביב</p>    
+              </div>
+        <div class="col-lg-6">
+            <h3>נועם קנוניץ'<a style="color:#2a435c"> | מייסד המיזם</a> </h3>
+            <img src="images/NK.jpg" width="120" height="120">
+            <p style="color: white;">תל אביב | 28</p>
+            <p style="color: white;"> בוגר תואר ראשון במדעי המחשב במרכז הבינתחומי הרצליה</p>
+        </div>
+    </div>
+    </section>
           
   <!-- Footer -->
 
@@ -317,7 +346,6 @@
       </div>
     </div>
   </footer>
-
 
   </body>
 </html>

@@ -86,9 +86,9 @@ body {
 }
   
   .donate-button {
-    margin-top: 10px;
-    width: 250px;
-    margin-left: 55%;
+    margin-top: 20px;
+    width: 550px;
+    margin-left: 3%;
 }
   
   .title {
@@ -141,10 +141,18 @@ body {
     .navbar {
       padding: 0 0 2.5rem;
     }
+
+    .navbar-brand {
+      font-size: 2rem;
+    }
   
     .nav-item {
       padding-left: 60%;
       text-align: right;
+    }
+
+    .nav-link{
+      font-size: 1rem;
     }
   
     .nav-item2 {
@@ -184,6 +192,57 @@ body {
       margin-bottom: 8%;
       width: 100%;
     }
+}
+
+@media (max-width: 1028) and (min-width: 951){
+  .title-image {
+    width: 500px;
+    height:300px;
+  }
+
+ 
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 2.5rem;
+    
+  }
+  
+    p {
+      font-size: 0.9rem;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 950) and (min-width: 700){
+  .title-image {
+    width: 500px;
+    height:300px;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+}
+
+@media (max-width: 700) and (min-width: 400){
+  .title-image {
+    width: 700px;
+    height:300px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
 }
 
 
@@ -263,7 +322,7 @@ body {
     margin-left: 35%;
 }
 
-  @media screen and (min-width: 0px) and (max-width: 768px) {
+  @media screen and (min-width: 0px) and (max-width: 978px) {
     #row1 {
       display: none;
     }
@@ -271,12 +330,9 @@ body {
       display: block;
     }
     
-    
-
-    
 }
   
-  @media screen and (min-width: 769px) and (max-width: 1728px) {
+  @media screen and (min-width: 979px) and (max-width: 1728px) {
     #row1 {
       display: block;
     }
@@ -334,9 +390,7 @@ body {
 }
   
   .joinus-button:hover {
-    background-color: rgb(155,
-    100,
-    48);
+    background-color: rgb(155,100,48);
 }
   
   .input-group {
@@ -450,11 +504,6 @@ body {
       width: 90%;
     }
   
-    .form-button {
-      margin: auto;
-      width: 90%;
-    }
-  
     .form-button:focus {
       margin: auto;
       width: 90%;
@@ -474,8 +523,69 @@ body {
     .p {
       text-align: left;
     }
+
+    .donate-button{
+      width: 100%;
+      margin-bottom:10px;
+    }
 }
 
+@media (max-width: 1228px) and (min-width: 1028px) {
+  .form-button {
+    width: 60%;
+    /* margin: auto; */
+    /* width: 90%; */
+  }
+
+  .form-button:focus {
+    margin: auto;
+    width: 60%;
+  }
+/* 
+  .input-group {
+    width: 100%;
+    margin-right: 1000px;
+    margin-bottom: 10px;
+  } */
+
+  .donate-button{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 1478px) and (min-width: 1228px) {
+  .form-button {
+    width: 60%;
+    /* margin: auto; */
+    /* width: 90%; */
+  }
+
+  .form-button:focus {
+    margin: auto;
+    width: 60%;
+  }
+
+   
+  .donate-button{
+    width: 100%;
+    margin:auto;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1028px) and (min-width: 728px) {
+  .joinus-title{
+    margin:0;
+  }
+  .joinus-par{
+    margin:0;
+  }
+  
+
+}
 
 /* Donation Section */
   
@@ -492,7 +602,69 @@ body {
     min-width: 310px;
     max-height: none !important;
 }
-  
+
+.meter{
+  margin-right: -170px;
+  max-width:700px; 
+  min-width:505px; 
+  max-height:none!important; 
+  font-size: 100px;
+}
+
+@media (max-width: 1278px) {
+  .meter{
+    margin-right: -190px;
+  }
+}
+
+@media (max-width: 992px) {
+  .meter{
+    margin-right: -130px;
+    margin-left: -40px;
+
+  }
+}
+
+
+
+@media (max-width: 832px) {
+  .meter{
+    margin-right: -80px;
+    margin-left: -20px;
+  }
+}
+
+
+@media (max-width: 692px) {
+  .meter{
+    margin-right: -110px;
+    margin-left: -20px;
+
+  }
+}
+
+ @media (max-width: 592px) {
+  .meter{
+    margin-right: -150px;
+    margin-left: -25px;
+  }
+} 
+
+@media (max-width: 392px) {
+  .meter{
+    margin-right: -170px;
+    margin-left: -25px;
+  }
+} 
+
+@media (max-width: 292px) {
+  .meter{
+    margin-right: -180px;
+    margin-left: -30px;
+  }
+} 
+
+
 
 
 
@@ -503,20 +675,111 @@ body {
       min-width: 50%;
       max-height: none !important;
     }
+  }
+/* 
+  @media (max-width: 1028px) {
     .meter {
-      /* padding-left: 10%; */
-      margin-left:-70px;
+      margin-right:-100px;
       min-width: 400px;
       max-height: none !important;
     }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 1028px) and (min-width: 828px) { 
+  .donate {
+    margin-left: 70px;
+  }
   .meter {
+    margin-left: auto;
+  }
+} 
+
+@media (max-width: 827px) and (min-width: 628px) { 
+  .donate {
+    margin-left: 50px;
+  }
+  .meter {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 727px) and (min-width: 528px) { 
+  .donate {
+    margin-left: 0px;
+  }
+  
+}
+
+
+@media (max-width: 668px) and (min-width: 568px) {
+
+  .meter {
+    margin-right:-80px;
     min-width: 450px;
     max-height: none !important;
   }
 }
+
+@media (max-width:567px) and (min-width:361px){ 
+  .meter {
+    margin-right:-60px; 
+  }
+}
+
+@media (max-width:460px) { 
+  .meter {
+    margin-right:-60px; 
+  }
+}
+ */
+
+
+/* About Us Section */
+ #about {
+  padding: 4% 15%;
+  text-align: center;
+  background-color: #8cb4dd;
+  color: white;
+  /* border-top: solid 5px; */
+ }
+
+ #about h3 {
+   margin-top: 30px; 
+   font-size: 1.7rem;
+ }
+
+ #about img {
+  border-radius: 80px; 
+  border: solid 2px; 
+  border-color: #2a435c; 
+  margin: 20px;
+ }
+
+
+ @media (max-width: 768px) { 
+  #about h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 568px) { 
+  #about h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  #about img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+
 
 /* Footer Section */
   
