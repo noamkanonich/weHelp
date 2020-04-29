@@ -11,7 +11,7 @@ body {
   
   h1 {
     font-family: "Rubik", sans-serif;
-    font-size: 4rem;
+    font-size: 2.7rem;
     line-height: 1.5;
     color: #dd9d71 !important;
     text-align: right;
@@ -86,7 +86,8 @@ body {
 }
   
   .donate-button {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     width: 550px;
     margin-left: 3%;
 }
@@ -203,7 +204,7 @@ body {
  
   h1 {
     font-family: "Rubik", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     
   }
   
@@ -227,6 +228,7 @@ body {
     margin: auto;
     margin-bottom: 5%;
   }
+  
 
 }
 
@@ -242,7 +244,7 @@ body {
   .navbar-brand {
     font-size: 1.8rem;
   }
-
+ 
 }
 
 
@@ -441,16 +443,16 @@ body {
 }
   
   .joinus-title {
-    font-size: 1.5rem;
-    text-align: right;
-    padding-right: 10%;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-left: 25%;
     padding-top: 0;
-    padding: 5% 13%;
+    /* padding: 5% 13%; */
 }
   
   .joinus-par {
-    text-align: right;
-    padding-right: 30%;
+    text-align: left;
+    padding-left: 10%;
     padding-top: 8%;
 }
   
@@ -662,6 +664,7 @@ body {
     margin-right: -180px;
     margin-left: -30px;
   }
+  
 } 
 
   @media (max-width: 1028px) {
