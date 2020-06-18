@@ -1,352 +1,701 @@
-
 <!--   WeHelp created by Noam Kanonich   -->
 
+
+
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
+
+
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+
     <!-- Form Spree -->
+
     <meta name="referrer" content="origin" />
+
     
+
     <!-- Required meta tags -->
+
     <meta charset="utf-8" />
+
     <meta
+
       name="viewport"
+
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
+
     />
+
+
 
     <!-- Bootstrap CSS -->
+
     <link
+
       rel="stylesheet"
+
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+
       crossorigin="anonymous"
+
     />
+
     <link rel="stylesheet" type="text/css" href="css/styles-en.css" />
 
+
+
     <!-- Fonts (fonts.google.com) -->
+
     <link
+
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap"
+
       rel="stylesheet"
+
     />
+
     <link
+
       href="https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap"
+
       rel="stylesheet"
+
     />
+
     <link 
+
     href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" 
+
     rel="stylesheet"
+
     />
+
     <link 
+
     href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Varela+Round&display=swap" 
+
     rel="stylesheet"
+
     />
+
+
+
 
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 
 
+
+
+
+
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script
+
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+
       crossorigin="anonymous"
+
     ></script>
+
     <script
+
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+
       crossorigin="anonymous"
+
     ></script>
+
     <script
+
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+
       crossorigin="anonymous"
+
     ></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script>
+
     $(document).ready(function(){
+
         $(".nav-link").on('click', function(event) {
+
             if (this.hash !== "") {
+
               event.preventDefault();
+
                      
+
               var hash = this.hash;
+
               $('html, body').animate({
+
                 scrollTop: $(hash).offset().top
+
             },
+
             800, function(){
+
                 window.location.hash = hash;
+
             });
+
         } 
+
     });
 
+
+
       $(".btn").on('click', function(event) {
+
         if (this.hash !== "") {
+
           event.preventDefault();
+
           var hash = this.hash;
+
           $('html, body').animate({
+
                 scrollTop: $(hash).offset().top
+
             },
+
             800, function(){
+
             window.location.hash = hash;
+
             });
+
         }
+
     })
+
 });
 
+
+
 function redirect() {
+
     var url = "index.html";
+
     window.location(url);
+
 }
 
+
+
     </script>
+
+
 
     <link rel="icon" type="image/gif/png" href="wehelp-icon.ico">
+
     <title>WeHelp | Fighting COVID-19</title>
 
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127394520-3"></script>
+
     <script>
+
       window.dataLayer = window.dataLayer || [];
+
       function gtag(){dataLayer.push(arguments);}
+
       gtag('js', new Date());
 
+
+
       gtag('config', 'UA-127394520-3');
+
     </script>
 
+
+
   </head>
+
   <body>
 
+
+
     <section id="section1">
+
       <div class="container-fluid">
+
         <!-- fixed-top -->
+
         <nav class="navbar navbar-expand-lg navbar-dark">
+
             <a class="navbar-brand mb-0 h1-lg" href="">
+
             <img class="title-logo" src="images/wehelp-icon.jpg">  
+
             WeHelp</a>
+
       
+
           <button
+
             class="navbar-toggler"
+
             type="button"
+
             data-toggle="collapse"
+
             data-target="#navbarToggler1"
+
             aria-controls="navbarToggler01"
+
             aria-expanded="false"
+
             aria-label="Toggle navigation"
+
           >
+
             <span class="navbar-toggler-icon"></span>
+
           </button>
 
+
+
           <div class="collapse navbar-collapse" id="navbarToggler1">
+
             <ul class="navbar-nav ml-auto">
+
               <li class="nav-item">
+
                 <a class="nav-link" href="index.html" onClick=redirect()>עברית</a>
+
               </li>
+
               <li class="nav-item">
+
                 <a class="nav-link" href="#footer">Contact </a>
+
               </li>
+
               <li class="nav-item">
+
                 <a class="nav-link" href="#process">Information</a>
+
               </li>
+
               <li class="nav-item ">
+
                 <a class="nav-link" href="#donation">Donation</a>
+
               </li>
+
             </ul>
+
           </div>
+
         </nav>
 
+
+
         <div class="row">
+
           <div class="col-lg-6">
+
             <img class="img-title title-image" src="images/charity.jpg" />
+
           </div>
+
           <div class="col-lg-6">
+
             <h1 style="text-align: left;">Fighting COVID-19 In Israel</h1>
+
               <p dir="ltr" style="color:white; text-align: left;">WeHelp is a non for profit charity founded in order to assist medical personnel and local restaurant businesses during the Covid-19 crisis.</p>
+
             
+
               <strong>Our Mission</strong> - to assist both struggling businesses and our brave and hardworking medical staff by utilizing all proceeds to purchase hot meals from restaurants that have seen great economic hardship due to Covid-19, and to deliver these meals to medical personnel to Israeli hospitals. </p>
+
               <p dir="ltr" style="color:white; text-align: left;">Know any local restaurants that have been harshly effected by the Coronavirus? <a href="mailto:israelwehelp@gmail.com" style="color: #dd9d71;"><strong>Click Here</strong></a></p>
+
             <a href="#donation" class="btn btn-outline-light btn-lg donate-button" role="button" style="font-family: 'Rubik'; font-weight: bold;">Donation</a>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
+
+
+
 
 
     <section id="ghost-section">
+
         <div class="row"  style="padding: 0% 40%;">
+
     </section>
+
+
+
 
 
     <section id="features">
+
     <div class="row">
+
         <div class="feature-box col-lg-4">
+
             <i class="icon fas fa-utensils fa-4x"></i>
-            <h3 dir="lrt"><a style="font-family: Arial, Helvetica, sans-serif;">20</a>+ Meals </h3>
+
+            <h3 dir="lrt"><a style="font-family: Arial, Helvetica, sans-serif;">50</a>+ Meals </h3>
+
             <p>Have been distributed to medical personnel thus far</p>
+
+        </div>
+
+
+
+        <div class="feature-box col-lg-4">
+
+            <i class="icon fas fa-heart fa-4x"></i>
+
+            <h3 dir="rtl"><script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="meter" frameborder="0" height="93px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?donation_meter_color=%2341a2d8&amp;only_donation_meter=true"  width="100%"></iframe></h3>
+
+            <p>Israeli Sheckles have been donated thus far</p>
+
         </div>
 
         <div class="feature-box col-lg-4">
-            <i class="icon fas fa-heart fa-4x"></i>
-            <h3 dir="rtl"><script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="meter" frameborder="0" height="93px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?donation_meter_color=%2341a2d8&amp;only_donation_meter=true"  width="100%"></iframe></h3>
-            <p>Israeli Sheckles have been donated thus far</p>
-        </div>
-        <div class="feature-box col-lg-4">
+
             <i class="icon fas fa-users fa-4x"></i>
-            <h3 dir="ltr"><a style="font-family: Arial, Helvetica, sans-serif;">20</a>+ Donors</h3>
+
+            <h3 dir="ltr"><a style="font-family: Arial, Helvetica, sans-serif;">35</a>+ Donors</h3>
+
             <p>Have donated to help businesses and hospital staff</p>
+
         </div>
+
     </div> 
+
     </section>
+
+
+
 
 
   <!-- The Process -->
 
+
+
   <section id="process">
+
     <section id="row1">
+
             <h2 class="title mb-4 mt-auto">How does the charity work?</h2>
+
     <div class="row">
+
         <div class="col-lg-6 mt-auto mb-auto">
+
             <h2 class="title-process">You, kind people, make a donation to WeHelp in any amount you see fit </h2>
+
         </div>
+
         <div class="col-lg-6 mt-auto mb-auto">
+
           <div class="circle">
+
           <img class="process-image" src="images/money.png" alt="donation" height="100px">
+
           </div>
+
         </div>
+
     </div>
+
   </section>
 
+
+
     <section id="row2">
+
        <div class="row">
+
           <div class="col-lg-6 mt-auto mb-auto">
+
              <h2 class="title mb-4 mt-auto">How does the charity work?</h2>
+
             <div class="circle">
+
            <img class="process-image" src="images/money.png" alt="donation" height="100px">
+
             </div>
+
          </div>
+
          <div class="col-lg-6 mt-auto mb-auto">
+
              <h2 dir="rtl" class="title-process">You, kind people, make a donation to WeHelp in any amount you see fit </h2>
+
           </div>
+
       </div>
+
     </section>
 
+
+
     <hr style="height:2px; border:none; color:#426a90; background-color:#426a90;">
+
+
 
     <div class="row">
+
         <div class="col-lg-6 mt-auto mb-auto">
+
           <div class="circle">
+
             <img class="process-image" src="images/serve.png" alt="takeaway"  height="100">
+
             </div>
+
         </div>
+
         <div class="col-lg-6 mt-auto mb-auto">
+
             <h2 class="title-process">We order hot meals from local restaurants that wish to take part in our charity, in accordance with the amount of donations received. </h2>
+
         </div>
+
     </div>
 
+
+
     <hr style="height:2px; border:none; color:#426a90; background-color:#426a90;">
+
+
 
      <section id="row1">
+
     <div class="row">
+
         <div class="col-lg-6 mt-auto mb-auto">
+
             <h2 class="title-process">We will deliver the hot meals ordered from the struggling businesses directly to the hospitals for their medical staff.</h2>
+
         </div>
+
         <div class="col-lg-6 mt-auto mb-auto">
+
           <div class="circle">
+
           <img class="process-image" src="images/food-delivery.png" alt="delivery"  height="110px">
+
           </div>
+
         </div>
+
     </div>
+
   </section>
 
+
+
     <section id="row2">
+
        <div class="row">
+
           <div class="col-lg-6 mt-auto mb-auto">
+
             <div class="circle">
+
           <img class="process-image" src="images/food-delivery.png" alt="delivery"  height="110px">
+
             </div>
+
          </div>
+
          <div class="col-lg-6 mt-auto mb-auto">
+
             <h2 class="title-process">We will deliver the hot meals ordered from the struggling businesses directly to the hospitals for their medical staff. </h2>
+
           </div>
+
       </div>
+
     </section>
+
   </section>
+
+
+
 
 
 <!-- Businesses Section -->
+
 <section class="colored-section" id="businesses">
+
   <h2 class="title mb-auto mt-auto">Join Us</h2>
+
     <div class="row">
+
       <div class="col-lg-6 mt-auto mb-auto">
+
          <h3 class="joinus-title" dir="ltr">Any assistance, large or small,</br> will be greatly appreciated!</br> Don’t hesitate to join us! </h3>
+
       </div>
+
       <div class="col-lg-6 mt-auto mb-auto">
+
         <p class="joinus-par" dir="ltr"><strong>Know</strong> any local restaurants that have been severely</br> affected  by the crisis and would like to take part in our charity?   <br/> <strong>Interested </strong>in helping us make deliveries to local hospitals or join our initiative? </p>
+
         <form action="https://formspree.io/israelwehelp@gmail.com" method="POST">
+
           <div class="input-group">
+
                 <input dir="ltr" class="form-control" type="email" name="_replyto" placeholder="Email Address" style="margin-right: 10px; ">
+
                 <input dir="ltr" class="form-control" type="text" name="name" placeholder="Full Name">
+
           </div>
+
           <input class="form-button" type="submit" value="Join Now">
+
         </form>
+
       </div>
+
     </div>  
+
   </section>
+
+
+
+
+
 
 
 
 
     <!-- Donation -->
+
     <section id="donation"> 
+
         <h2 class="title mb-auto">Donation</h2>
+
         <div class="row">
+
         <div class="col-lg-12">
+
             <h3 style="margin-top: 30px; font-size: 2rem;">Every Donation Counts! </h3>
+
             <p style="color: white;">Donate today and join others who have taken part in our initiative to support local  </br> businesses the wake of this crisis and help ease the pressure on the medical staff at our local hospitals!</p>
+
            <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe class="donate" allowpaymentrequest="" frameborder="0" height="900px" name="donorbox" scrolling="no" seamless="seamless" src="https://donorbox.org/embed/truma-for-all?default_interval=o&hide_donation_meter=true" style="max-width: 500px; min-width: 210px; max-height:none!important" width="100%"></iframe>
+
      </div>
+
     </div>
+
     </section>
+
        
+
+
 
     <!-- About Us -->
 
+
+
     <section id="about"> 
+
         <h2 class="title mb-auto" style="color:#2a435c">About Us</h2>
+
         <div class="row">
+
         <div class="col-lg-6">
+
             <h3>May Dar<a style="color:#2a435c"> | Founder</a> </h3>
+
             <img src="images/MD.jpg" width="120" height="120">
+
             <p style="color: white;">Tel Aviv | 26</p>
+
             <p style="color: white;">B.A in Government and Criminology from the University of Maryland, College Park
+
               L.L.B in Law from Tel Aviv University</p>    
+
               </div>
+
         <div class="col-lg-6">
+
             <h3>Noam Kanonich<a style="color:#2a435c"> | Founder</a> </h3>
+
             <img src="images/NK.jpg" width="120" height="120">
+
             <p style="color: white;">Tel Aviv | 28</p>
+
             <p style="color: white;"> B.Sc. in Computer Science from IDC Herzliya </p>
+
         </div>
+
     </div>
+
     </section>
+
           
+
   <!-- Footer -->
 
+
+
   <footer class="white-section" id="footer">
+
     <div class="container-fluid">
+
       <a href="https://www.facebook.com/WeHelp-110910587247944/" style="color: black"><i class="social-icon fab fa-facebook-f fa-2x"></i></a>
+
       <a href="https://www.instagram.com/" style="color: black"><i class="social-icon fab fa-instagram fa-2x"></i></a>
+
       <a href="https://api.whatsapp.com/send?phone=+972509435903" style="color: black"><i class="social-icon fab fa-whatsapp fa-2x"></i></a>
+
       <a href="mailto:israelwehelp@gmail.com" style="color: black"><i class="social-icon fas fa-envelope fa-2x"></i></a>
+
      
+
       <div class="p-footer">
+
         <p class="p-footer">© Copyright 2020 WeHelp</p>
+
       </div>
+
     </div>
+
   </footer>
 
+
+
   </body>
+
 </html>
